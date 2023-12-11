@@ -209,7 +209,12 @@ table, th, td {
     
 
 }
-
+.teste:hover{
+   
+     background-color: var(--clr-grena);
+    color:white;
+    cursor: pointer;
+}
 
 
 /**********************************/
@@ -387,15 +392,17 @@ h3.lined::after{
 .textParag{
     font-size: 15px;
     padding-left: 80px;
-    padding-top: 15px;
-    text-indent: 10px;
+    padding-top: 5px;
+    
+    text-align: justify;
+    padding-bottom: 15px
 }
 .textItem{
-    font-size: 15px;
-   padding-left: 80px;
+    font-size: 18px;
+   padding-left: 90px;
     text-indent: 10px;
-    padding-top: 15px;
-    line-height: 1.4;
+    padding-top: 10px;
+    line-height: 1;
      text-align: justify;
 }
 .maior{
@@ -423,10 +430,15 @@ strong {
   background-color: #6d131a;
   width: 100%;
   border-radius: .7rem;
-  padding: 50px;
-  margin: 20px;
+  padding: 10px;
+  margin: 10px;
   color: white;
   align-items: center;
   justify-content: center;
   text-align: center;
+
+}
+.info{
+    
+    display: none;
 }
