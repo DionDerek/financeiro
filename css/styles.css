@@ -211,8 +211,8 @@ table, th, td {
 }
 .teste:hover{
    
-     background-color: var(--clr-grena);
-    color:white;
+     background-color: white;
+    color: var(--clr-grena);
     cursor: pointer;
 }
 
